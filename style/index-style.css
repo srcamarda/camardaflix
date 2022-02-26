@@ -1,0 +1,98 @@
+/* Main elements */
+main #outer_container {
+    position: absolute;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+main #who_container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+main #who_watch {    
+    display: inline-block; 
+}
+
+main #who_watch_text {    
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    text-align: center;    
+    color: white;
+}
+
+main #who_watch_profiles {
+    margin-top: 30px;  
+    margin-bottom: 74px;     
+}
+
+main .col {
+    cursor: pointer;
+    align-items: center;
+    margin: 0;
+    padding: 0;    
+}
+
+main .col:hover .profile_picture {
+    border: 3px solid white;
+}
+
+main .col:hover .profile_name {
+    color: white;    
+}
+
+main .col_empty {
+    margin: 15px;
+    padding: 0;
+}
+
+ul {    
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main .profile_picture {   
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 145px;
+    transition: .1s linear;
+}
+
+main .profile_name {
+    font-family: 'Cabin', sans-serif;     
+    font-size: 18px;
+    color: grey;
+    text-decoration: none;
+    transition: .1s linear;
+}
+
+main #man_profiles {    
+    width: 210px;
+    height: 42px;        
+    margin: auto;
+    border: 1px solid grey;  
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+main #man_profiles:hover {    
+    border: 1px solid white;
+}
+
+main #man_profiles_text {
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    letter-spacing: 2.2px; 
+    color: grey;  
+    padding-top: 8px;
+}
+
+main #man_profiles:hover #man_profiles_text {    
+    color: white;  
+}

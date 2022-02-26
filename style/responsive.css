@@ -1,0 +1,32 @@
+/* Smartphones */
+@media only screen and (max-width:768px) {
+    .wrapper span a, .strip-carousel .frames { margin: 10px 0 0 35px; }
+    .strip-carousel .arrow-left, .strip-carousel .arrow-right { width: 10%; }
+    main .btn { margin-bottom: 15px; }   
+    main #movie_big_cont { max-width: 70%; }    
+    header nav .navbar { display: flex; justify-items: auto;} 
+    header nav .navbar { display: flex; flex-wrap: nowrap;}
+    main #who_container { padding-top: 15%; }
+    main #who_watch_text { font-size: 35px; }
+  }
+  
+  /* Tablets (potrait) */
+  @media only screen and (min-width:768px) and (max-width:1024px) {
+    .wrapper span a, .strip-carousel .frames { margin: 10px 0 0 35px; }
+    .strip-carousel .arrow-left, .strip-carousel .arrow-right { width: 5%; }
+    main .btn { margin-bottom: 15px; }  
+  }
+  
+  /* Tablets (landscape) */
+  @media only screen and (min-width:1024px) and (max-width:1440px) {
+    .wrapper span a, .strip-carousel .frames { margin: 10px 0 0 35px; }
+    .strip-carousel .arrow-left, .strip-carousel .arrow-right { width: 5%; }
+    main #movie_big_cont { width: 500px; }
+  }
+  
+  /* Desktop and above */
+  @media only screen and (min-width:1440px) {
+    .wrapper span a, .strip-carousel .frames { margin: 10px 0 0 35px; }
+    .strip-carousel .arrow-left, .strip-carousel .arrow-right { width: 5%; }
+    main #movie_big_cont { width: 500px; }
+  }

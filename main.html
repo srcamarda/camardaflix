@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">         
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        
+        <!--bootstrap-->
+        <link rel="stylesheet" type="text/css" href="style/bootstrap/css/bootstrap.min.css">
+
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+        <!--strip-carousel-->
+        <link rel="stylesheet" href="style/strip.css">
+
+        <!--style-->
+        <link rel="stylesheet" href="style/main-style.css"> 
+        <link rel="stylesheet" href="style/responsive.css">
+
+        <title>Início - Camardaflix</title>
+    </head>
+
+    <body>
+        <header>
+            <div id="top_bar">                                
+                <nav>
+                    <img id="logo" src="img/logo.png"> 
+                    <div class="navbar left_items">
+                        <a class="nav_item" id="selected" href="#">Início</a>
+                        <a class="nav_item" href="#">Séries</a>
+                        <a class="nav_item" href="#">Filmes</a>
+                        <a class="nav_item" href="#">Documentários</a>
+                    </div> 
+                    <div class="navbar">
+                        <a class="nav_item" href="#"><i class="fa fa-search"></i></a>
+                        <a class="nav_item" href="#"><i class="fa fa-bell"></i></a>
+                        <img id="right_profile" src="img/profile1.png" onclick="location.href = 'index.html'">
+                        <a class="nav_item" href="#"><i class="fa fa-caret-down"></i></a>
+                    </div>                     
+                </nav>                           
+            </div> 
+        </header>
+
+        <main>
+            <div class="movie_big">
+                <div class="container"  id="movie_big_cont">
+                    <img id="movie_big_logo" src="img/birdemic_logo.png">
+                    <h2 id="movie_big_info1">Brasil: top 1 de hoje</h2>
+                    <p id="movie_big_info2">Águias e urubus atacam os moradores de uma pequena cidade. Muitos morrem e as causas são desconhecidas. Um casal consegue revidar, mas será que sobreviverão à epidemia?</p>
+                
+                    <button type="button" class="btn btn-secondary" id="btn_play"><i class="fa fa-play"></i>
+                    Assistir
+                    </button>
+
+                    <button type="button" class="btn btn-secondary" id="btn_info"><i class="fa fa-info-circle"></i>
+                    Mais informações
+                    </button>
+                </div>
+            </div>           
+
+            <div class="wrapper noselect">
+             
+                <span><a href="#">Minha lista</a></span>
+                <div class="strip-carousel" id="mostviewed">
+                  <div class="arrow-left">&lsaquo;</div>
+                  <div class="arrow-right">&rsaquo;</div>             
+                  <div class="frames">
+                    <a href="#"><div class="frame" id="frame1"></div></a>
+                    <a href="#"><div class="frame" id="frame2"></div></a>
+                    <a href="#"><div class="frame" id="frame3"></div></a>
+                    <a href="#"><div class="frame" id="frame4"></div></a>
+                    <a href="#"><div class="frame" id="frame5"></div></a>
+                    <a href="#"><div class="frame" id="frame6"></div></a>                    
+                  </div>
+                </div>             
+              
+                <span><a href="#">Em alta</a></span>
+                <div class="strip-carousel" id="topten">
+                  <div class="arrow-left">&lsaquo;</div>
+                  <div class="arrow-right">&rsaquo;</div>
+                  <div class="frames">                    
+                    <a href="#"><div class="frame" id="frame7"></div></a>
+                    <a href="#"><div class="frame" id="frame8"></div></a>
+                    <a href="#"><div class="frame" id="frame9"></div></a>
+                    <a href="#"><div class="frame" id="frame10"></div></a> 
+                    <a href="#"><div class="frame" id="frame11"></div></a>                  
+                  </div>
+                </div>
+
+                <span><a href="#">Continuar assinstindo</a></span>
+                <div class="strip-carousel">
+                  <div class="arrow-left">&lsaquo;</div>
+                  <div class="arrow-right">&rsaquo;</div>
+                  <div class="frames">                    
+                    <a href="#"><div class="frame" id="frame12"></div></a>                                      
+                  </div>
+                </div>             
+            </div>
+
+        </main>
+        
+        <!--jquery-->
+        <script src="js/jquery.min.js"></script>
+
+        <!--strip-carousel-->
+        <script src="js/strip.js"></script>
+
+    </body>
+</html>

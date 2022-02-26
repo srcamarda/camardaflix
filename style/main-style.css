@@ -1,0 +1,205 @@
+/* Everything */
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;    
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-color: #141414;
+    overflow-x: hidden;          
+}
+
+/* Header elements */
+header #logo {    
+    margin-left: 35px;
+    margin-right: 20px;
+    width: 130px;
+    cursor: pointer;
+}
+
+header #top_bar {  
+    z-index: 1000;
+    top: 0;    
+    height: 65px; 
+    width: 100%;
+    position: absolute; 
+    position: fixed;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0));
+    text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px; 
+}
+
+header nav {
+    width: 100%;
+    padding-top: 10px;      
+    display: flex;      
+    align-items: center;
+    overflow: auto;  
+}
+
+header nav .navbar {
+    list-style: none;      
+    display: inline-block;    
+    padding: 0;
+    margin: 0; 
+    margin-right: 20px;
+}
+
+header nav #selected {
+    color: white;
+}
+
+header nav .left_items {    
+    flex: 1 1 300px;
+    float: left;
+}
+
+header nav #right_profile {  
+    border-radius: 5px;
+    width: 30px;
+    cursor: pointer;
+}
+
+header nav .selected { 
+    color: white;
+}
+
+header nav .nav_item {
+    padding: 10px;    
+    color: #cbcbc8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;    
+    transition: .3s ease all; 
+}
+
+header nav .nav_item:hover { 
+    color: white;
+}
+
+/* Main elements */
+main #movie_big_cont {
+    margin-left: 25px; 
+    max-width: 50%;  
+    font-family: 'Cabin', sans-serif; 
+}
+
+main .movie_big {       
+    color: white;
+    background-image: url('../img/birdemic_big.jpg');    
+    background-size: cover;
+    min-height: 420px;
+    max-height: fit-content;
+    background-position: 0 100%;
+}
+
+main #movie_big_logo {
+    padding-top: 70px;
+    padding-bottom: 15px;
+    width: 300px;
+}
+
+main #movie_big_info1 {
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    font-size: 24px;
+    font-weight: 700;
+    text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px;    
+}
+
+main #movie_big_info2 {
+    text-align: justify;
+    padding-bottom: 5px  ;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px; 
+}
+
+main .btn i {
+    margin-right: 5px;
+}
+
+main .btn-secondary {
+    font-weight: 700;
+    letter-spacing: 0.5px; 
+    font-size: 18px;
+    height: 44px;
+    transition: .3s ease all;
+}
+
+main #btn_play {
+    background-color: white;
+    border: 0;
+    color: black;
+    margin-right: 5px;
+    width: 150px;
+}
+
+main #btn_play:hover {
+    background-color: rgba(255, 255, 255, 0.7);    
+}
+
+main #btn_info {
+    background-color: rgba(128, 128, 128, 0.5);
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 2px;
+    border: 0;
+    color: white;
+    width: 240px;
+}
+
+main #btn_info:hover {
+    background-color: rgba(128, 128, 128, 0.25);
+}
+
+/* Carousel */
+main .strip-carousel .frames .frame#frame1 {
+    background: transparent url("../img/cover2.jpg") no-repeat 50% 50% / cover;
+}
+
+main .strip-carousel .frames .frame#frame2 {
+    background: transparent url("../img/cover3.jpg") no-repeat 50% 50% / cover;
+}
+
+main .strip-carousel .frames .frame#frame3 {
+    background: transparent url("../img/cover4.jpg") no-repeat 50% 50% / cover;
+}
+
+main .strip-carousel .frames .frame#frame4 {
+    background: transparent url("../img/cover5.jpg") no-repeat 50% 50% / cover;
+}
+
+main .strip-carousel .frames .frame#frame5 {
+    background: transparent url("../img/cover6.jpg") no-repeat 50% 50% / cover;
+}
+
+main .strip-carousel .frames .frame#frame6 {
+    background: transparent url("../img/cover7.jpg") no-repeat 50% 50% / cover;
+}
+
+main .strip-carousel .frames .frame#frame7 {
+    background: transparent url("../img/cover8.jpg") no-repeat 50% 50% / cover;
+}
+
+main .strip-carousel .frames .frame#frame8 {
+    background: transparent url("../img/cover9.jpg") no-repeat 50% 50% / cover;
+}
+
+main .strip-carousel .frames .frame#frame9 {
+    background: transparent url("../img/cover10.jpg") no-repeat 50% 50% / cover;
+}
+
+main .strip-carousel .frames .frame#frame10 {
+    background: transparent url("../img/cover11.jpg") no-repeat 50% 50% / cover;
+}
+
+main .strip-carousel .frames .frame#frame11 {
+    background: transparent url("../img/cover12.jpg") no-repeat 50% 50% / cover;
+}
+
+main .strip-carousel .frames .frame#frame12 {
+    background: transparent url("../img/cover1.jpg") no-repeat 50% 50% / cover;
+}
